@@ -5,9 +5,32 @@
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h1>Форма авторизации</h1>
+<p>Введите логин и пароль или авторизируйтесь через соцсети.</p>
+
+<form action="#" method="post">
+	<section>
+	<input type="text" name="login" placeholder="Логин" required/>
+	<input type="password" name="password" placeholder="Пароль" required/>
+    <button type="submit" name="Social_netwok_enter">Войти</button>
+    </section>
+    
+    <section>
+    <button type="button" name="VK_enter">Войти через VK</button>
+    <button type="button" name="YT_enter">Войти через YouTube</button>
+    <button type="button" name="TG_enter">Войти через Telegram</button>
+    </section>
+    
+    <section>
+    <label for="Save_session">Сохранять сессию?</label>
+    <input type="checkbox" name="Save_session" checked/>
+    </section>
+</form>
 
 </body>
-</html>
 
+<footer>
+<p>© 2025 HSE. All rights reserved</p>
+</footer>
+
+</html>

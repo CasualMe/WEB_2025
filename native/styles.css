@@ -14,4 +14,16 @@
     input[name="login"] {
 
     }
+
+    input:placeholder-shown {
+
+    }
+
+    input:checked {
+
+    }
+
+    button:hover {
+
+    }
 </style>

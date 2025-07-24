@@ -1,8 +1,17 @@
-h1{
-    color: red;
-}
-div{
-    width: 100px; 
-    height: 100px; 
-    background-color: red;
-}
+<style>
+    #main-headline {
+        
+    }
+
+    .social {
+
+    }
+
+    label {
+
+    }
+
+    input[name="login"] {
+
+    }
+</style>
